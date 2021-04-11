@@ -8,7 +8,7 @@ NT = '\n'
 interesting_articles = []
 
 keywords_lower = [element.lower() for element in KEYWORDS];
-print('Ищем по следующим ключевым словам: ', keywords_lower)
+print('Ищем по ключевым словам: ', keywords_lower)
 
 # URL
 result = requests.get(URL)
